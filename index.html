@@ -1,41 +1,17 @@
-<!DOCTYPE html>
+<!DOCTYPE>
+<html>
 <head>
 <meta charset="utf-8">
 <title>Johannes Lares CV</title>
 <link rel="stylesheet" type="text/css" href="cvcss.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script>
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover(); 
-});
-$(document).ready(function()
-{ 
-   var a = $("#noup");
-   a.click(function()
-   {
 
-       return false;
-
-   });
-});
-</script>
 </head>
 <body>
-	<div class="Maincontent col-md-6 col-md-offset-3">
-		<div class="row">
-			<div class="col-sm-6">
-				<img id="kuva" src="Lares.jpg">
-			</div>
-			<div class="col-sm-6" id="tekstit">
-				<p>Johannes Lares</p>
-				<p><span class="glyphicon glyphicon-envelope"></span> Willebrandinkuja 3B</p>
-				<p>00840 Helsinki</p>
-				<p><span class="glyphicon glyphicon-phone"></span> +358400498862</p>
-				<p><span class="glyphicon glyphicon-envelope"></span> johq.lares@gmail.com</p>
-				<p>Ultrasoftware</p>
-			</div>
+	<div class="Main">
+		<div class="details">
+			<p id="name">Johannes Lares</p>
+            <p id="mail">johannes.lares[]helsinki.fi</p>
+            <p id="work">CEO, Developer @ Ultra Software Oy</p>
 		</div>
 		<h1>Education</h1>
 		<div class="row expcont">
@@ -44,6 +20,14 @@ $(document).ready(function()
 			competence area in Software Development<br>
 			Languages: PHP, HTML, Java<br>
 			When: Fall 2015-spring 2016</p>
+		</div>
+        <div class="row expcont">
+			<h3><b>Upper secondary school of Töölö</b></h3>
+            <p id="content">Got my matriculation examination done here.</p>
+		</div>
+        <div class="row expcont">
+			<h3><b>University of Helsinki</b></h3>
+			<p id="content">Department of computer sciense. Studying for bachelor and masters degrees. Also aiming for PhD in CS.</p>
 		</div>
 		<h1>Work experience</h1>
 		<div class="row expcont">
@@ -58,60 +42,12 @@ $(document).ready(function()
 			Languages: PHP, jQuery, HTML5, CSS3<br>
 			When: Summer of 2016</p>
 		</div>
-		<p>You can find references from 
-		<h1>Skills</h1>
-		<div class="row">
-			<div class="col-md-4">
-				<h3><a id="noup" href="#" data-toggle="popover" title="PHP skills" data-content="I can develope with PHP quite fluently. I'm quite new to OOP.">PHP</a></h3>
-				<div class="progress">
-    				<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-				      <span class="sr-only">80% Complete</span>
-				    </div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<h3><a id="noup" href="#" data-toggle="popover" title="HTML skills" data-content="I can write fluently HTML and HTML5. I like to use Bootstrap.">HTML</a></h3>
-				<div class="progress">
-    				<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-				      <span class="sr-only">90% Complete</span>
-				    </div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<h3><a id="noup" href="#" data-toggle="popover" title="CSS skills" data-content="I can write fluently CSS, and websites I build are pretty good looking and mobile first.">CSS</a></h3>
-				<div class="progress">
-    				<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-				      <span class="sr-only">70% Complete</span>
-				    </div>
-				</div>
-			</div>
+        <div class="row expcont">
+			<h3><b>Entrepreneur</b></h3>
+			<p id="content">I have worked with my own company since 1. july 2016. Ultra Software Oy has had many big public companies as their customer. I am the CEO and a developer at Ultra Software Oy.</p>
 		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<h3><a id="noup" href="#" data-toggle="popover" title="JS skills" data-content="I have pretty good JS skills.">JavaScript</a></h3>
-				<div class="progress">
-    				<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-				      <span class="sr-only">50% Complete</span>
-				    </div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<h3><a id="noup" href="#" data-toggle="popover" title="HTML skills" data-content="I'm more like learn as go with jQuery and I handle AJAX.">jQuery</a></h3>
-				<div class="progress">
-    				<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-				      <span class="sr-only">50% Complete</span>
-				    </div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<h3><a id="noup" href="#" data-toggle="popover" title="HTML skills" data-content="I like to make some basic scripts with python, but I'm not so good with it.">Python</a></h3>
-				<div class="progress">
-    				<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:30%">
-				      <span class="sr-only">30% Complete</span>
-				    </div>
-				</div>
-			</div>
-		</div>
+		
+		
 	</div>
 </body>
 </html>
